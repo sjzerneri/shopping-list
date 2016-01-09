@@ -100,9 +100,63 @@
         color: #9068BE;
         font-size: 2rem;
     }
+
+    .current-list input[type="text"] {
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 1.2rem;
+        appearance: none;
+        box-shadow: none;
+        border-radius: none;
+        padding: 10px;
+        color: black;
+        background-color: #E1E8FO;
+        border: solid 1px #9068Be;
+        transition: border 0.3s;
+    }
+
+    .clear-all {
+        margin-bottom: 2rem;
+    }
+
+    .clear-content {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .clear-all h2 {
+        display: inline-block;
+        font-size: 1.5rem;
+        color: #E62739;
+        margin-left: .3rem;
+    }
+
+    .clear-all img {
+        height: 3rem;
+    }
     /* Footer styles
 (all the styles inside the < footer > tag)
 */
+
+    .bot-nav {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        height: 10rem;
+        background-color: #6Ed3Cf;
+    }
+
+    .bot-nav-content {
+        margin: 0 auto;
+        padding: 0px 30px;
+    }
+
+    .bot-nav-content h3 {
+        text-align: center;
+    }
     /* Responsive styles
 (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
 */
